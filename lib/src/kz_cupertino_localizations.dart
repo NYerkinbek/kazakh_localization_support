@@ -65,10 +65,10 @@ class KzCupertinoLocalization extends GlobalCupertinoLocalizations {
   String get anteMeridiemAbbreviation => 'АМ';
 
   @override
-  String get copyButtonLabel => 'Копировать';
+  String get copyButtonLabel => 'Көшіру';
 
   @override
-  String get cutButtonLabel => 'Вырезать';
+  String get cutButtonLabel => 'Қию';
 
   @override
   String get datePickerDateOrderString => 'dmy';
@@ -77,16 +77,16 @@ class KzCupertinoLocalization extends GlobalCupertinoLocalizations {
   String get datePickerDateTimeOrderString => 'date_time_dayPeriod';
 
   @override
-  String? get datePickerHourSemanticsLabelFew => r'$hour часа';
+  String? get datePickerHourSemanticsLabelFew => r'$hour сағат';
 
   @override
-  String? get datePickerHourSemanticsLabelMany => r'$hour часов';
+  String? get datePickerHourSemanticsLabelMany => r'$hour сағат';
 
   @override
-  String? get datePickerHourSemanticsLabelOne => r'$hour час';
+  String? get datePickerHourSemanticsLabelOne => r'$hour сағат';
 
   @override
-  String get datePickerHourSemanticsLabelOther => r'$hour часа';
+  String get datePickerHourSemanticsLabelOther => r'$hour сағат';
 
   @override
   String? get datePickerHourSemanticsLabelTwo => null;
@@ -95,16 +95,16 @@ class KzCupertinoLocalization extends GlobalCupertinoLocalizations {
   String? get datePickerHourSemanticsLabelZero => null;
 
   @override
-  String? get datePickerMinuteSemanticsLabelFew => r'$minute минуты';
+  String? get datePickerMinuteSemanticsLabelFew => r'$minute минут';
 
   @override
   String? get datePickerMinuteSemanticsLabelMany => r'$minute минут';
 
   @override
-  String? get datePickerMinuteSemanticsLabelOne => '1 минута';
+  String? get datePickerMinuteSemanticsLabelOne => '1 минут';
 
   @override
-  String get datePickerMinuteSemanticsLabelOther => r'$minute минуты';
+  String get datePickerMinuteSemanticsLabelOther => r'$minute минут';
 
   @override
   String? get datePickerMinuteSemanticsLabelTwo => null;
@@ -113,37 +113,37 @@ class KzCupertinoLocalization extends GlobalCupertinoLocalizations {
   String? get datePickerMinuteSemanticsLabelZero => null;
 
   @override
-  String get modalBarrierDismissLabel => 'Закрыть';
+  String get modalBarrierDismissLabel => 'Жабу';
 
   @override
-  String get noSpellCheckReplacementsLabel => 'No Replacements Found';
+  String get noSpellCheckReplacementsLabel => 'Ауыстырулар табылмады';
 
   @override
-  String get pasteButtonLabel => 'Вставить';
+  String get pasteButtonLabel => 'Қою';
 
   @override
   String get postMeridiemAbbreviation => 'PM';
 
   @override
-  String get searchTextFieldPlaceholderLabel => 'Поиск';
+  String get searchTextFieldPlaceholderLabel => 'Іздеу';
 
   @override
-  String get selectAllButtonLabel => 'Выбрать все';
+  String get selectAllButtonLabel => 'Барлығын таңдау';
 
   @override
-  String get tabSemanticsLabelRaw => r'Вкладка $tabIndex из $tabCount';
+  String get tabSemanticsLabelRaw => r'$tabCount ішінен $tabIndex-қойынды';
 
   @override
-  String? get timerPickerHourLabelFew => 'часа';
+  String? get timerPickerHourLabelFew => 'сағат';
 
   @override
-  String? get timerPickerHourLabelMany => 'часов';
+  String? get timerPickerHourLabelMany => 'сағат';
 
   @override
-  String? get timerPickerHourLabelOne => 'час';
+  String? get timerPickerHourLabelOne => 'сағат';
 
   @override
-  String get timerPickerHourLabelOther => 'часа';
+  String get timerPickerHourLabelOther => 'сағат';
 
   @override
   String? get timerPickerHourLabelTwo => null;
@@ -188,5 +188,17 @@ class KzCupertinoLocalization extends GlobalCupertinoLocalizations {
   String? get timerPickerSecondLabelZero => null;
 
   @override
-  String get todayLabel => 'Сегодня';
+  String get todayLabel => 'Б';
+  
+  @override
+  String get lookUpButtonLabel => 'Іздеу';
+  
+  @override
+  String get menuDismissLabel => 'Мәзірді жабу';
+  
+  @override
+  String get searchWebButtonLabel => 'Ғаламтордан іздеу';
+  
+  @override
+  String get shareButtonLabel => 'Бөлісу>...';
 }
